@@ -1,3 +1,4 @@
+// The example is written in es6 and compiled down with Gulp.
 const MyVueApp = {
   data() {
     return {

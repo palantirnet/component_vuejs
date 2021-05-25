@@ -2,5 +2,6 @@ name: Vue JS version 3
 description: 'Base component library for Vue 3.'
 type: 'library'
 # We are fixed to Vue 3.0.11 right now.
+# Use //unpkg.com/vue@next if you want to test the latest.
 js:
   //unpkg.com/vue@3.0.11/dist/vue.global.prod.js: { type: external, minified: true, crossorigin: anonymous }
