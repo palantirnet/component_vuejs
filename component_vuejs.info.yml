@@ -1,0 +1,7 @@
+name: 'VueJS v3'
+type: module
+description: 'Supports VueJS v3 with Component.'
+package: Component
+core_version_requirement: ^8 || ^9
+dependencies:
+  - component:component

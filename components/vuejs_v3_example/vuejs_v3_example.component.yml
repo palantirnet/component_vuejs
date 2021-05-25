@@ -1,0 +1,20 @@
+name: Example VueJS component
+description: 'Example component using VueJS 3 from a CDN.'
+js:
+  vuejs_v3_example.js: {attributes: { type: 'text/javascript' }}
+css:
+  vuejs_v3_example.css: {}
+dependencies:
+  - component/vuejs_v3
+
+# We will look for an index.htm to load as the template. If that has a different
+# name or location, then put that here.
+template: 'example.html'
+
+cache:
+  max-age: 0
+
+# Put any custom configuration here.
+static_configuration:
+  name: "Phillipa"
+  greeting: "Hello World!"
